@@ -1,0 +1,38 @@
+{
+  "os": "macOS-14.1.1-arm64-arm-64bit",
+  "python": "3.10.15",
+  "startedAt": "2024-11-01T03:48:02.772794Z",
+  "program": "/Users/moises/Documents/intent-chat/chatbot-intent-classification-pytorch.ipynb",
+  "git": {
+    "remote": "https://github.com/JoaquimBreno/intent-chat.git",
+    "commit": "851bd0c1e084d9ddec1eb0b9df42f980808fe7ea"
+  },
+  "email": "contatojoaquim.breno@gmail.com",
+  "root": "/Users/moises/Documents/intent-chat",
+  "host": "MacBook-Air-de-Moises.local",
+  "username": "moises",
+  "executable": "/opt/miniconda3/envs/intent/bin/python",
+  "codePathLocal": "chatbot-intent-classification-pytorch.ipynb",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "223065161728"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M1",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 7,
+    "memoryGb": 16
+  }
+}

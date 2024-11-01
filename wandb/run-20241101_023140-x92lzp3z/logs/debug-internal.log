@@ -1,0 +1,32 @@
+{"time":"2024-11-01T02:31:45.924742-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-01T02:31:45.92478-03:00","level":"INFO","msg":"created symlink","path":"/Users/moises/Documents/intent-chat/wandb/run-20241101_023140-x92lzp3z/logs/debug-core.log"}
+{"time":"2024-11-01T02:31:46.038959-03:00","level":"INFO","msg":"created new stream","id":"x92lzp3z"}
+{"time":"2024-11-01T02:31:46.055535-03:00","level":"INFO","msg":"stream: started","id":"x92lzp3z"}
+{"time":"2024-11-01T02:31:46.056444-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"x92lzp3z"}}
+{"time":"2024-11-01T02:31:46.056718-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"x92lzp3z"}}
+{"time":"2024-11-01T02:31:46.057041-03:00","level":"INFO","msg":"sender: started","stream_id":"x92lzp3z"}
+{"time":"2024-11-01T02:31:46.531089-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-01T05:25:43.339591-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/x92lzp3z/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T05:25:45.603572-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/x92lzp3z/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T05:25:48.312921-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.13:50547->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-11-01T07:44:21.747036-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/x92lzp3z/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2024-11-01T09:45:37.370268-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/x92lzp3z/file_stream\": read tcp 192.168.0.13:55161->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-11-01T10:22:25.040073-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/x92lzp3z/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T10:22:27.119949-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/x92lzp3z/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T10:39:01.023772-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.0.13:54850->35.186.228.49:443: read: operation timed out"}
+{"time":"2024-11-01T10:39:02.79404-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/x92lzp3z/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T10:39:03.335513-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T10:48:10.37733-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T10:48:14.378337-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/x92lzp3z/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-11-01T12:26:55.617-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.68.89:57860->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-11-01T13:18:55.060852-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/x92lzp3z/file_stream\": read tcp 192.168.68.89:60870->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-11-01T13:29:59.399326-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/x92lzp3z/file_stream\": read tcp 192.168.68.89:61349->35.186.228.49:443: read: operation timed out"}
+{"time":"2024-11-01T14:09:39.464507-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-01T14:09:39.470376-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-01T14:09:40.467993-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.515167625},{"desc":"uploading wandb-summary.json","runtime_seconds":0.490333333,"progress":"28B/28B"},{"desc":"uploading config.yaml","runtime_seconds":0.244369375,"progress":"752B/752B"},{"desc":"uploading output.log","runtime_seconds":0.244360209}],"total_operations":4}}
+{"time":"2024-11-01T14:09:40.724336-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-01T14:09:42.199352-03:00","level":"INFO","msg":"stream: closing","id":"x92lzp3z"}
+{"time":"2024-11-01T14:09:42.199394-03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"x92lzp3z"}}
+{"time":"2024-11-01T14:09:42.199435-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"x92lzp3z"}}
+{"time":"2024-11-01T14:09:42.199444-03:00","level":"INFO","msg":"sender: closed","stream_id":"x92lzp3z"}
+{"time":"2024-11-01T14:09:42.199544-03:00","level":"INFO","msg":"stream: closed","id":"x92lzp3z"}

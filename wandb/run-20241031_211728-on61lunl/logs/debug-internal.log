@@ -1,0 +1,39 @@
+{"time":"2024-10-31T21:17:28.058802-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-31T21:17:28.058902-03:00","level":"INFO","msg":"created symlink","path":"/Users/moises/Documents/intent-chat/wandb/run-20241031_211728-on61lunl/logs/debug-core.log"}
+{"time":"2024-10-31T21:17:28.379582-03:00","level":"INFO","msg":"created new stream","id":"on61lunl"}
+{"time":"2024-10-31T21:17:28.379664-03:00","level":"INFO","msg":"stream: started","id":"on61lunl"}
+{"time":"2024-10-31T21:17:28.379783-03:00","level":"INFO","msg":"sender: started","stream_id":"on61lunl"}
+{"time":"2024-10-31T21:17:28.379975-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"on61lunl"}}
+{"time":"2024-10-31T21:17:28.379946-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"on61lunl"}}
+{"time":"2024-10-31T21:17:28.934224-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-31T21:17:29.032938-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:17:34.553088-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:17:34.554044-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:17:34.862894-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:17:34.86496-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:17:43.244466-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:17:43.408977-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:17:58.578008-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:17:58.609546-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:18:01.244415-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:18:01.258008-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:18:03.977532-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:18:03.989838-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:18:04.900078-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:18:05.080692-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:21:25.277822-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:21:25.281942-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:21:25.664089-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:21:25.667226-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:21:25.992453-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:21:25.995009-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-31T21:21:26.270117-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-31T21:21:26.288963-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-31T21:21:26.289425-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-31T21:21:27.294641-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.519036625},{"desc":"uploading config.yaml","runtime_seconds":0.246620917,"progress":"670B/670B"},{"desc":"uploading output.log","runtime_seconds":0.246590333}],"total_operations":3}}
+{"time":"2024-10-31T21:21:29.469493-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-31T21:21:30.997823-03:00","level":"INFO","msg":"stream: closing","id":"on61lunl"}
+{"time":"2024-10-31T21:21:30.99784-03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"on61lunl"}}
+{"time":"2024-10-31T21:21:30.997854-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"on61lunl"}}
+{"time":"2024-10-31T21:21:30.997878-03:00","level":"INFO","msg":"sender: closed","stream_id":"on61lunl"}
+{"time":"2024-10-31T21:21:30.997921-03:00","level":"INFO","msg":"stream: closed","id":"on61lunl"}

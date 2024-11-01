@@ -1,0 +1,8 @@
+{"time":"2024-10-31T22:35:53.834278-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-31T22:35:53.834347-03:00","level":"INFO","msg":"created symlink","path":"/Users/moises/Documents/intent-chat/wandb/run-20241031_223551-1gx9i4m8/logs/debug-core.log"}
+{"time":"2024-10-31T22:35:53.944687-03:00","level":"INFO","msg":"created new stream","id":"1gx9i4m8"}
+{"time":"2024-10-31T22:35:53.94472-03:00","level":"INFO","msg":"stream: started","id":"1gx9i4m8"}
+{"time":"2024-10-31T22:35:53.944759-03:00","level":"INFO","msg":"sender: started","stream_id":"1gx9i4m8"}
+{"time":"2024-10-31T22:35:53.944773-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1gx9i4m8"}}
+{"time":"2024-10-31T22:35:53.944726-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"1gx9i4m8"}}
+{"time":"2024-10-31T22:35:54.416503-03:00","level":"INFO","msg":"Starting system monitor"}

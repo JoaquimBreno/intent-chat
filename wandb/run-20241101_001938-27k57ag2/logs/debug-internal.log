@@ -1,0 +1,27 @@
+{"time":"2024-11-01T00:19:38.958648-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-01T00:19:38.95871-03:00","level":"INFO","msg":"created symlink","path":"/Users/moises/Documents/intent-chat/wandb/run-20241101_001938-27k57ag2/logs/debug-core.log"}
+{"time":"2024-11-01T00:19:39.071067-03:00","level":"INFO","msg":"created new stream","id":"27k57ag2"}
+{"time":"2024-11-01T00:19:39.071101-03:00","level":"INFO","msg":"stream: started","id":"27k57ag2"}
+{"time":"2024-11-01T00:19:39.071122-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"27k57ag2"}}
+{"time":"2024-11-01T00:19:39.071138-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"27k57ag2"}}
+{"time":"2024-11-01T00:19:39.071165-03:00","level":"INFO","msg":"sender: started","stream_id":"27k57ag2"}
+{"time":"2024-11-01T00:19:39.907957-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-01T00:19:40.008811-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T00:19:50.911676-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T00:19:50.915858-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T00:19:57.058619-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T00:19:57.062862-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T00:19:58.071483-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T00:19:58.234769-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T00:19:58.548686-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T00:22:16.364524-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T00:22:16.371138-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T00:22:16.372978-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-01T00:22:16.373439-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-01T00:22:17.378719-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.482246541},{"desc":"uploading config.yaml","runtime_seconds":0.203666542,"progress":"752B/752B"},{"desc":"uploading output.log","runtime_seconds":0.203636375,"progress":"3.9KB/3.9KB"}],"total_operations":3}}
+{"time":"2024-11-01T00:22:17.661219-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-01T00:22:19.144935-03:00","level":"INFO","msg":"stream: closing","id":"27k57ag2"}
+{"time":"2024-11-01T00:22:19.144968-03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"27k57ag2"}}
+{"time":"2024-11-01T00:22:19.144994-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"27k57ag2"}}
+{"time":"2024-11-01T00:22:19.145031-03:00","level":"INFO","msg":"sender: closed","stream_id":"27k57ag2"}
+{"time":"2024-11-01T00:22:19.145199-03:00","level":"INFO","msg":"stream: closed","id":"27k57ag2"}

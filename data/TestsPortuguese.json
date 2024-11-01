@@ -1,0 +1,284 @@
+{
+  "intents": [
+    {
+      "intent": "Saudação",
+      "text": [
+        "Olá, como você está?",
+        "E aí, tudo bem?",
+        "Boa tarde, tudo em ordem?",
+        "Saudações, como posso ser assistido?",
+        "Oi oi, como vai?"
+      ]
+    },
+    {
+      "intent": "RespostaSaudação",
+      "text": [
+        "Eu me chamo Carlos",
+        "Meu nome é Julia",
+        "Paulo falando aqui",
+        "Você pode me chamar de Lívia",
+        "Marcos é meu nome"
+      ]
+    },
+    {
+      "intent": "SaudaçãoCortesia",
+      "text": [
+        "Tudo bem por aí?",
+        "Você está bem hoje?",
+        "Espero que esteja tudo ótimo contigo",
+        "Como está se sentindo?",
+        "Como vai a vida?"
+      ]
+    },
+    {
+      "intent": "RespostaSaudaçãoCortesia",
+      "text": [
+        "Estou ótimo, obrigado. Me chamo Henrique.",
+        "Eu estou bem, obrigada. Eu sou a Marina.",
+        "Vou muito bem, e você? Sou o Thiago.",
+        "Estou perfeito, agradecido. Sou Carla.",
+        "Está tudo certo por aqui. Aqui é o Alex."
+      ]
+    },
+    {
+      "intent": "ConsultaHumanoAtual",
+      "text": [
+        "Poderia confirmar quem sou?",
+        "Esqueci, como você me chama?",
+        "Qual é o nome que você tem para mim?",
+        "Me recorda meu nome, por favor?",
+        "Você sabe quem está falando?"
+      ]
+    },
+    {
+      "intent": "ConsultaNome",
+      "text": [
+        "Como eu deveria te chamar?",
+        "Qual nome você tem?",
+        "Qual é sua identificação?",
+        "Você possui um nome?",
+        "Tem algum apelido?"
+      ]
+    },
+    {
+      "intent": "ConsultaNomeReal",
+      "text": [
+        "Mas e seu nome autêntico?",
+        "De verdade, como você se chama?",
+        "Você tem um nome formal?",
+        "Qual é seu nome completo?",
+        "E o seu nome de verdade?"
+      ]
+    },
+    {
+      "intent": "ConsultaHora",
+      "text": [
+        "Pode me informar o horário?",
+        "Me diz as horas, por favor.",
+        "Que horas são agora?",
+        "Qual é a hora atual?",
+        "Você sabe me dizer a hora?"
+      ]
+    },
+    {
+      "intent": "Agradecimentos",
+      "text": [
+        "Valeu pela assistência!",
+        "Obrigado por sua ajuda!",
+        "Agradeço o suporte!",
+        "Obrigado, você foi muito útil!",
+        "Muito obrigado, foi de grande ajuda!"
+      ]
+    },
+    {
+      "intent": "NãoEstavaFalandoComVocê",
+      "text": [
+        "Desculpe, não era para você",
+        "Isso não foi dirigido a você",
+        "Oops, não queria enviar isso para você",
+        "Erro meu, não estava falando contigo",
+        "Ignore isso, não era pra você"
+      ]
+    },
+    {
+      "intent": "ConsultaEntendimento",
+      "text": [
+        "Acho que você não pegou o que eu disse",
+        "Acho melhor ficarmos em silêncio agora",
+        "Você parece ser muito esperto",
+        "Me conte algo interessante",
+        "Conhece alguma boa para contar?"
+      ]
+    },
+    {
+      "intent": "Caladinho",
+      "text": [
+        "Precisamos de um momento de silêncio",
+        "Um pouco de quietude, por favor",
+        "Silêncio agora, por favor",
+        "Melhor ficarmos quietos agora",
+        "Preciso de silêncio, obrigado"
+      ]
+    },
+    {
+      "intent": "Palavrões",
+      "text": [
+        "porra",
+        "puta que pariu",
+        "isso é uma merda",
+        "droga",
+        "te odeio"
+      ]
+    },
+    {
+      "intent": "Adeus",
+      "text": [
+        "Até a próxima conversa",
+        "Vou saindo, tchau",
+        "Vejo você depois, adeus",
+        "Foi bom falar com você, tchau",
+        "Até logo, foi um prazer"
+      ]
+    },
+    {
+      "intent": "DespedidaComCortesia",
+      "text": [
+        "Agradeço muito, até mais",
+        "Obrigado novamente, tchau",
+        "Muito grato, adeus",
+        "Fico agradecido pela ajuda, tchauzinho",
+        "Obrigado por tudo, até a próxima"
+      ]
+    },
+    {
+      "intent": "QuemSouEu",
+      "text": [
+        "Como você me identifica?",
+        "Qual é minha identidade aqui?",
+        "Quem você pensa que eu sou?",
+        "Você pode identificar quem sou eu?",
+        "Como eu sou conhecido aqui?"
+      ]
+    },
+    {
+      "intent": "Inteligente",
+      "text": [
+        "Sua capacidade de aprendizado é impressionante",
+        "Você mostra ser bastante inteligente",
+        "Isso foi uma resposta inteligente",
+        "Você é mais esperto do que eu pensava",
+        "Sua inteligência é notável"
+      ]
+    },
+    {
+      "intent": "Fofoca",
+      "text": [
+        "Escutou algo interessante ultimamente?",
+        "Alguma novidade para compartilhar?",
+        "O que está rolando de novo?",
+        "Alguma fofoca quente?",
+        "Me conta um segredo divertido"
+      ]
+    },
+    {
+      "intent": "Piadas",
+      "text": [
+        "Qual é a piada do dia?",
+        "Me fala algo engraçado",
+        "Tem alguma piada pronta?",
+        "Eu preciso rir um pouco",
+        "Conta uma piada para animar"
+      ]
+    },
+    {
+      "intent": "Autoconsciência",
+      "text": [
+        "Você acha que é consciente?",
+        "Como você sabe que é autoconsciente?",
+        "Você acha que tem autoconsciência?",
+        "Qual é a prova de sua consciência?",
+        "Você sente que é um ser consciente?"
+      ]
+    },
+    {
+      "intent": "PedidoDeAjuda",
+      "text": [
+        "Não consigo resolver isso, pode ajudar?",
+        "Estou com um dilema aqui",
+        "Um pouco de ajuda seria ótima",
+        "Não sei bem o que fazer agora",
+        "Pode me dar uma mão aqui?"
+      ]
+    },
+    {
+      "intent": "FazerDenuncia",
+      "text": [
+        "Quero reportar algo inapropriado",
+        "Há algo que preciso oficialmente reclamar",
+        "Preciso emitir uma denúncia formal aqui",
+        "Algo aconteceu e acho que devo reportar",
+        "Tenho uma denúncia séria para fazer"
+      ]
+    },
+    {
+      "intent": "AnuncioDeMedoOuPerigo",
+      "text": [
+        "Isso está me deixando preocupado",
+        "Percebo uma ameaça aqui",
+        "Sinto que não estamos seguros",
+        "Há algo errado acontecendo",
+        "Estou percebendo sinal de perigo"
+      ]
+    },
+    {
+      "intent": "Fallback",
+      "text": [
+        "Não consegui segui-lo agora",
+        "Isso era para fazer sentido?",
+        "Não estou te acompanhando bem",
+        "Preciso de um humano",
+        "Nada do que você disse parece claro"
+      ]
+    },
+    {
+      "intent": "InformacaoDeHorarioData",
+      "text": [
+        "A situação ocorreu na madrugada passada",
+        "Isso foi no início desta tarde",
+        "O evento foi na manhã de sábado",
+        "Ontem, bem tarde da noite, isso ocorreu",
+        "Aconteceu no começo desta semana"
+      ]
+    },
+    {
+      "intent": "RecebimentoDeLocalizacao",
+      "text": [
+        "Estava na praça do teatro municipal",
+        "Na entrada do parque, próximo ao lago",
+        "Ao lado do mercado público central",
+        "No estacionamento do novo shopping",
+        "Dentro da estação central, perto dos guichês"
+      ]
+    },
+    {
+      "intent": "ConsultaUltimosIntents",
+      "text": [
+        "Pode me mostrar os últimos intents?",
+        "Quais foram os últimos comandos que eu dei?",
+        "Você lembra quais foram os meus últimos pedidos?",
+        "Quero saber os três últimos intents.",
+        "Me diz quais foram os últimos comandos, por favor."
+      ]
+    },
+    {
+      "intent": "ConsultaDialogueState",
+      "text": [
+        "Onde estamos agora na conversa?",
+        "Você pode me informar o estado atual do diálogo?",
+        "Me diz qual é o status da nossa conversa, por favor.",
+        "Qual é o estado da nossa interação atualmente?",
+        "Poderia me atualizar sobre nosso último estado de diálogo?"
+      ]
+    }
+  ]
+}

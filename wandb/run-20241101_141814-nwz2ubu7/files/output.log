@@ -1,0 +1,49 @@
+/opt/miniconda3/envs/intent/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:57: FutureWarning:
+
+'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+186 21
+
+100%|██████████| 19/19 [00:08<00:00,  2.27it/s]
+Checkpoint saved on epoch 1 with val/loss 0.4688
+Epochs: 1 | Train Loss:  0.341                 | Train Accuracy:  0.048                 | Val Loss:  0.469                 | Val Accuracy:  0.143
+100%|██████████| 19/19 [00:07<00:00,  2.60it/s]
+Epochs: 2 | Train Loss:  0.327                 | Train Accuracy:  0.199                 | Val Loss:  0.471                 | Val Accuracy:  0.286
+100%|██████████| 19/19 [00:07<00:00,  2.59it/s]
+Checkpoint saved on epoch 3 with val/loss 0.4648
+Epochs: 3 | Train Loss:  0.310                 | Train Accuracy:  0.328                 | Val Loss:  0.465                 | Val Accuracy:  0.286
+100%|██████████| 19/19 [00:07<00:00,  2.52it/s]
+Checkpoint saved on epoch 4 with val/loss 0.4623
+Epochs: 4 | Train Loss:  0.292                 | Train Accuracy:  0.446                 | Val Loss:  0.462                 | Val Accuracy:  0.524
+100%|██████████| 19/19 [00:07<00:00,  2.55it/s]
+Checkpoint saved on epoch 5 with val/loss 0.4342
+Epochs: 5 | Train Loss:  0.269                 | Train Accuracy:  0.613                 | Val Loss:  0.434                 | Val Accuracy:  0.429
+100%|██████████| 19/19 [00:08<00:00,  2.16it/s]
+Checkpoint saved on epoch 6 with val/loss 0.3944
+Epochs: 6 | Train Loss:  0.240                 | Train Accuracy:  0.763                 | Val Loss:  0.394                 | Val Accuracy:  0.667
+100%|██████████| 19/19 [00:08<00:00,  2.25it/s]
+Checkpoint saved on epoch 7 with val/loss 0.3824
+Epochs: 7 | Train Loss:  0.216                 | Train Accuracy:  0.839                 | Val Loss:  0.382                 | Val Accuracy:  0.619
+100%|██████████| 19/19 [00:08<00:00,  2.33it/s]
+Checkpoint saved on epoch 8 with val/loss 0.3710
+Epochs: 8 | Train Loss:  0.189                 | Train Accuracy:  0.935                 | Val Loss:  0.371                 | Val Accuracy:  0.667
+100%|██████████| 19/19 [00:08<00:00,  2.29it/s]
+Checkpoint saved on epoch 9 with val/loss 0.3412
+Epochs: 9 | Train Loss:  0.171                 | Train Accuracy:  0.925                 | Val Loss:  0.341                 | Val Accuracy:  0.714
+100%|██████████| 19/19 [00:08<00:00,  2.19it/s]
+Checkpoint saved on epoch 10 with val/loss 0.3217
+Epochs: 10 | Train Loss:  0.151                 | Train Accuracy:  0.973                 | Val Loss:  0.322                 | Val Accuracy:  0.714
+100%|██████████| 19/19 [00:08<00:00,  2.25it/s]
+Checkpoint saved on epoch 11 with val/loss 0.3063
+Epochs: 11 | Train Loss:  0.132                 | Train Accuracy:  0.989                 | Val Loss:  0.306                 | Val Accuracy:  0.714
+100%|██████████| 19/19 [00:10<00:00,  1.85it/s]
+Checkpoint saved on epoch 12 with val/loss 0.3000
+Epochs: 12 | Train Loss:  0.118                 | Train Accuracy:  0.989                 | Val Loss:  0.300                 | Val Accuracy:  0.810
+100%|██████████| 19/19 [00:08<00:00,  2.27it/s]
+Checkpoint saved on epoch 13 with val/loss 0.2972
+Epochs: 13 | Train Loss:  0.103                 | Train Accuracy:  0.995                 | Val Loss:  0.297                 | Val Accuracy:  0.810
+100%|██████████| 19/19 [00:08<00:00,  2.28it/s]
+Checkpoint saved on epoch 14 with val/loss 0.2673
+Epochs: 14 | Train Loss:  0.092                 | Train Accuracy:  0.995                 | Val Loss:  0.267                 | Val Accuracy:  0.810
+100%|██████████| 19/19 [00:08<00:00,  2.24it/s]
+Checkpoint saved on epoch 15 with val/loss 0.2639
+Epochs: 15 | Train Loss:  0.081                 | Train Accuracy:  1.000                 | Val Loss:  0.264                 | Val Accuracy:  0.810

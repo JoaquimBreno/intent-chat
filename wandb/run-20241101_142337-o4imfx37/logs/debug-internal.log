@@ -1,0 +1,62 @@
+{"time":"2024-11-01T14:23:37.624423-03:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-01T14:23:37.624488-03:00","level":"INFO","msg":"created symlink","path":"/Users/moises/Documents/intent-chat/wandb/run-20241101_142337-o4imfx37/logs/debug-core.log"}
+{"time":"2024-11-01T14:23:37.744876-03:00","level":"INFO","msg":"created new stream","id":"o4imfx37"}
+{"time":"2024-11-01T14:23:37.745345-03:00","level":"INFO","msg":"stream: started","id":"o4imfx37"}
+{"time":"2024-11-01T14:23:37.745665-03:00","level":"INFO","msg":"sender: started","stream_id":"o4imfx37"}
+{"time":"2024-11-01T14:23:37.745349-03:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"o4imfx37"}}
+{"time":"2024-11-01T14:23:37.745648-03:00","level":"INFO","msg":"handler: started","stream_id":{"value":"o4imfx37"}}
+{"time":"2024-11-01T14:23:38.328324-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-01T14:23:38.4681-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:38.472405-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:38.473502-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:38.479215-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:38.482447-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:38.491538-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:38.530159-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:38.85419-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:38.864087-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:38.99757-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:39.021093-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:39.355123-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:39.359727-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:39.483334-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:39.489183-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:39.58926-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:39.593638-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:39.858668-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:39.997858-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:40.087907-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:40.194159-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:40.239898-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:40.241026-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:40.371627-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:40.373226-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:40.67733-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:40.678242-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:40.899087-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:40.902101-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:41.060061-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:41.062888-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:41.372295-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:41.685873-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:41.691626-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:41.692383-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:42.072447-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:42.076771-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:42.442588-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:42.446202-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:43.211003-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:23:43.455515-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:23:43.510299-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:26:24.510376-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/tail_joka/intent_recognition/o4imfx37/file_stream\": read tcp 192.168.68.89:63810->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2024-11-01T14:27:14.397475-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-01T14:27:14.408437-03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-01T14:27:14.413804-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-01T14:27:14.414864-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-01T14:27:15.419295-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.565288959}],"total_operations":1}}
+{"time":"2024-11-01T14:27:15.642069-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-01T14:27:16.995658-03:00","level":"INFO","msg":"stream: closing","id":"o4imfx37"}
+{"time":"2024-11-01T14:27:16.995692-03:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"o4imfx37"}}
+{"time":"2024-11-01T14:27:16.995715-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"o4imfx37"}}
+{"time":"2024-11-01T14:27:16.995729-03:00","level":"INFO","msg":"sender: closed","stream_id":"o4imfx37"}
+{"time":"2024-11-01T14:27:16.996008-03:00","level":"INFO","msg":"stream: closed","id":"o4imfx37"}

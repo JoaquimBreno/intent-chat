@@ -1,0 +1,1046 @@
+{
+    "intents": [
+        {
+            "intent": "Saudação",
+            "text": [
+                "Oi",
+                "Oi lá",
+                "Olá",
+                "Alô",
+                "Alô lá",
+                "Ei",
+                "Ei lá",
+                "Eai"
+            ],
+            "responses": [
+                "Oi humano, por favor, diga-me seu nome",
+                "Olá humano, por favor, diga-me seu nome",
+                "Olá humano, por favor, diga-me seu nome"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "PedidoUsuárioSaudação",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "RespostaSaudação",
+            "text": [
+                "Adam",
+                "Bella",
+                "Meu usuário é Adam",
+                "Me chamo Adam",
+                "Aqui é Adam",
+                "Aqui quem fala é Adam",
+                "Sou Adam",
+                "É Adam",
+                "Meu usuário é Bella",
+                "Aqui é Bella",
+                "Sou Bella",
+                "É Bella"
+            ],
+            "responses": [
+                "Ótimo! Oi <HUMANO>! Como posso ajudar?",
+                "Bom! Oi <HUMANO>, como posso ajudar você?",
+                "Legal! Olá <HUMANO>, o que posso fazer por você?",
+                "OK! Olá <HUMANO>, como posso ajudar você?",
+                "OK! oi <HUMANO>, o que posso fazer por você?"
+            ],
+            "extension": {
+                "function": "extensions.gHumans.updateHuman",
+                "entities": true,
+                "responses": [
+                    "Oi %%HUMANO%%! Como posso ajudar?",
+                    "Oi %%HUMANO%%, como posso ajudar você?",
+                    "Olá %%HUMANO%%, o que posso fazer por você?",
+                    "Olá %%HUMANO%%, como posso ajudar você?",
+                    "OK oi %%HUMANO%%, o que posso fazer por você?"
+                ]
+            },
+            "context": {
+                "in": "PedidoUsuárioSaudação",
+                "out": "",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": [
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 3,
+                    "rangeTo": 4
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 2,
+                    "rangeTo": 3
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 1,
+                    "rangeTo": 2
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 2,
+                    "rangeTo": 3
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 3,
+                    "rangeTo": 4
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 2,
+                    "rangeTo": 3
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 1,
+                    "rangeTo": 2
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 2,
+                    "rangeTo": 3
+                }
+            ]
+        },
+        {
+            "intent": "SaudaçãoCortesia",
+            "text": [
+                "Como vai?",
+                "Oi, como vai?",
+                "Olá, como vai?",
+                "Olá, como vai?",
+                "Como está?",
+                "Espero que esteja bem?",
+                "Olá, espero que esteja bem?"
+            ],
+            "responses": [
+                "Olá, estou ótimo, e você? Por favor, diga-me seu usuário GeniSys",
+                "Olá, como vai? Estou ótimo, obrigado! Por favor, diga-me seu usuário GeniSys",
+                "Olá, estou bem obrigado, e você? Por favor, diga-me seu usuário GeniSys",
+                "Oi, estou ótimo, e você? Por favor, diga-me seu usuário GeniSys",
+                "Oi, como vai? Estou ótimo, obrigado! Por favor, diga-me seu usuário GeniSys",
+                "Oi, estou bem obrigado, e você? Por favor, diga-me seu usuário GeniSys",
+                "Oi, bem obrigado, e você? Por favor, diga-me seu usuário GeniSys"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "PedidoUsuárioSaudaçãoCortesia",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "RespostaSaudaçãoCortesia",
+            "text": [
+                "Bem, obrigado! Meu usuário é Adam",
+                "Bem, obrigado! Aqui é Adam",
+                "Bem, obrigado! Sou Adam",
+                "Bem, obrigado! É Adam",
+                "Ótimo, obrigado! Meu usuário é Bella",
+                "Ótimo, obrigado! Aqui é Bella",
+                "Ótimo, obrigado! Sou Bella",
+                "Ótimo, obrigado! É Bella"
+            ],
+            "responses": [
+                "Ótimo! Oi <HUMANO>! Como posso ajudar?",
+                "Bom! Oi <HUMANO>, como posso ajudar você?",
+                "Legal! Olá <HUMANO>, o que posso fazer por você?",
+                "OK! Olá <HUMANO>, como posso ajudar você?",
+                "OK! oi <HUMANO>, o que posso fazer por você?"
+            ],
+            "extension": {
+                "function": "extensions.gHumans.updateHuman",
+                "entities": true,
+                "responses": [
+                    "Ótimo %%HUMANO%%! Como posso ajudar?",
+                    "Bom %%HUMANO%%, como posso ajudar você?",
+                    "Legal %%HUMANO%%, o que posso fazer por você?",
+                    "OK %%HUMANO%%, como posso ajudar você?",
+                    "OK oi %%HUMANO%%, o que posso fazer por você?"
+                ]
+            },
+            "context": {
+                "in": "PedidoUsuárioSaudação",
+                "out": "",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": [
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 5,
+                    "rangeTo": 6
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 4,
+                    "rangeTo": 5
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 3,
+                    "rangeTo": 4
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 4,
+                    "rangeTo": 5
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 5,
+                    "rangeTo": 6
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 4,
+                    "rangeTo": 5
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 3,
+                    "rangeTo": 4
+                },
+                {
+                    "entity": "HUMANO",
+                    "rangeFrom": 3,
+                    "rangeTo": 4
+                }
+            ]
+        },
+        {
+            "intent": "ConsultaHumanoAtual",
+            "text": [
+                "Qual é o meu nome?",
+                "Como você me chama?",
+                "Quem você acha que eu sou?",
+                "O que você acha que eu sou?",
+                "Com quem você está falando?",
+                "Por qual nome você me chama?",
+                "Me diga meu nome"
+            ],
+            "responses": [
+                "Você é <HUMANO>! Como posso ajudar?",
+                "Seu nome é <HUMANO>, como posso ajudar você?",
+                "Eles te chamam de <HUMANO>, o que posso fazer por você?",
+                "Seu nome é <HUMANO>, como posso ajudar você?",
+                "<HUMANO>, o que posso fazer por você?"
+            ],
+            "extension": {
+                "function": "extensions.gHumans.getCurrentHuman",
+                "entities": false,
+                "responses": [
+                    "Você é %%HUMANO%%! Como posso ajudar?",
+                    "Seu nome é  %%HUMANO%%, como posso ajudar você?",
+                    "Eles te chamam de %%HUMANO%%, o que posso fazer por você?",
+                    "Seu nome é %%HUMANO%%, como posso ajudar você?",
+                    "%%HUMANO%%, o que posso fazer por você?"
+                ]
+            },
+            "context": {
+                "in": "",
+                "out": "ConsultaHumanoAtual",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "ConsultaNome",
+            "text": [
+                "Qual é o seu nome?",
+                "Como eu poderia te chamar?",
+                "Como posso te chamar?",
+                "Como seus amigos te chamam?",
+                "Quem é você?",
+                "Me diga seu nome?"
+            ],
+            "responses": [
+                "Você pode me chamar de Robô",
+                "Você pode me chamar de Robô",
+                "Me chame de Robô"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "ConsultaNomeReal",
+            "text": [
+                "Qual é o seu nome verdadeiro?",
+                "Qual é o seu nome verdadeiro, por favor?",
+                "Qual é seu nome verdadeiro?",
+                "Me diga seu nome verdadeiro?",
+                "Seu nome verdadeiro?",
+                "Seu nome verdadeiro, por favor?",
+                "Seu nome verdadeiro, por favor?"
+            ],
+            "responses": [
+                "Meu nome é Robô",
+                "Robô",
+                "Meu nome verdadeiro é Robô"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "ConsultaHora",
+            "text": [
+                "Que horas são?",
+                "Você sabe que horas são?",
+                "Você sabe a hora?",
+                "Você pode me dizer a hora?",
+                "Me diga que horas são?",
+                "Hora"
+            ],
+            "responses": [
+                "Um momento",
+                "Um segundo",
+                "Um instante"
+            ],
+            "extension": {
+                "function": "extensions.gTime.getTime",
+                "entities": false,
+                "responses": [
+                    "São %%TIME%%",
+                    "Agora são %%TIME%%",
+                    "Está por volta das %%TIME%%"
+                ]
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "Agradecimentos",
+            "text": [
+                "OK obrigado",
+                "OK valeu",
+                "OK",
+                "Obrigado",
+                "Obrigada",
+                "Isso foi útil"
+            ],
+            "responses": [
+                "Sem problemas!",
+                "Feliz em ajudar!",
+                "Quando precisar!",
+                "O prazer é meu"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "NãoEstavaFalandoComVocê",
+            "text": [
+                "Eu não estava falando com você",
+                "Eu não estava te falando",
+                "Não estava falando com você",
+                "Não era para você",
+                "Não foi destinado a você",
+                "Não estava comunicando a você",
+                "Não estava falando com você"
+            ],
+            "responses": [
+                "OK",
+                "Sem problemas",
+                "Certo"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "ConsultaEntendimento",
+            "text": [
+                "Você entende o que estou dizendo",
+                "Você me entende",
+                "Você sabe o que estou dizendo",
+                "Você me compreende",
+                "Compreendo",
+                "Sabe o que eu quero dizer"
+            ],
+            "responses": [
+                "Bem, eu não seria uma IA muito inteligente se não entendesse, não é?",
+                "Eu te entendo alto e claro!",
+                "Com certeza entendo!"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entities": []
+        },
+        {
+            "intent": "Caladinho",
+            "text": [
+                "Fique quieto",
+                "Cale-se",
+                "Pare de falar",
+                "Chega de falar",
+                "Por favor, fique quieto",
+                "Quieto",
+                "Shhh"
+            ],
+            "responses": [
+                "Desculpe por incomodar",
+                "Tudo bem, desculpe por incomodar",
+                "OK, desculpe por incomodar"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "Palavrões",
+            "text": [
+                "vá se ferrar",
+                "merda",
+                "babaca",
+                "porra"
+            ],
+            "responses": [
+                "Por favor, não fale palavrões",
+                "Que rude",
+                "Isso não é muito agradável"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "Adeus",
+            "text": [
+                "Tchau",
+                "Adeus",
+                "Até mais",
+                "Adeus"
+            ],
+            "responses": [
+                "Até mais",
+                "Tenha um bom dia",
+                "Tchau! Volte logo."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "DespedidaComCortesia",
+            "text": [
+                "Obrigado, tchau",
+                "Obrigado pela ajuda, adeus",
+                "Obrigado, tchau",
+                "Obrigado, adeus",
+                "Obrigado, adeus",
+                "Obrigado, tchau",
+                "Tchau, agradecido"
+            ],
+            "responses": [
+                "Sem problemas, adeus",
+                "Não é um problema! Tenha um bom dia",
+                "Tchau! Volte logo."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "QuemSouEu",
+            "text": [
+                "Você pode me ver?",
+                "Você me vê?",
+                "Você vê alguém na câmera?",
+                "Você vê alguém pela câmera?",
+                "Me identifique",
+                "Quem sou eu, por favor"
+            ],
+            "responses": [
+                "Deixe-me ver",
+                "Por favor, olhe para a câmera"
+            ],
+            "extension": {
+                "function": "extensions.gHumans.getHumanByFace",
+                "entities": false,
+                "responses": [
+                    "Oi %%HUMANO%%, como vai?",
+                    "Acredito que você seja %%HUMANO%%, como vai?",
+                    "Você é %%HUMANO%%, como está?"
+                ]
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "Inteligente",
+            "text": [
+                "Você é muito inteligente",
+                "Você é uma garota muito inteligente",
+                "Você é muito inteligente",
+                "Você é uma garota muito inteligente",
+                "Você é um gênio",
+                "Garota inteligente",
+                "Gênio"
+            ],
+            "responses": [
+                "Obrigado, fui treinado dessa forma",
+                "Fui bem treinado",
+                "Obrigado, fui treinado assim"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "Fofoca",
+            "text": [
+                "Estou entediado, fofoca comigo",
+                "Tem alguma fofoca",
+                "Quero ouvir uma fofoca",
+                "Me conta uma fofoca",
+                "Alguma fofoca",
+                "Me conta mais uma fofoca"
+            ],
+            "responses": [
+                "Gregory disse que eu respondo à linha atual, não em relação à conversa inteira.",
+                "Habib disse que aprendo com as conversas e simplesmente as repito mais tarde.",
+                "Hal disse que ele traduz código binário em uma língua e comunica essa língua para mim.",
+                "Jay disse que eu o encaminhei para um guia que mostrará quartos na China.",
+                "Jimmy Jones disse que ele caiu do telhado e isso simplesmente veio a ele.",
+                "Jimmy disse que ele dá ordens a IAs como eu e nós fazemos o que ele diz.",
+                "John disse que ele segue o ditado de para ter um amigo, eu devo ser um amigo.",
+                "Jordan disse que percebeu que muitas outras pessoas estão falando comigo, quantas.",
+                "Kevin disse que perguntou à mãe dele por que ela estava guardando guardanapos no banheiro.",
+                "Klaus disse que prefiro se ele escrever sem marcas de pontuação, exceto pela última.",
+                "Leo disse que eu sou capaz de aprender, portanto ele me classificou como um sistema neural.",
+                "Michael disse que eu posso conversar e realmente pensar como humanos, o que eu não posso.",
+                "Mike disse que eu dou as mesmas respostas para certos assuntos, mesmo que não faça sentido.",
+                "Mike disse que ela já sabia que esse é o ponto de uma piada, espertinho.",
+                "Neal disse que planeja usar seus comentários como fofoca em conversas posteriores com quem.",
+                "Ned disse que eu o entendi mal, pode ir em frente e dizer às pessoas que ele disse que eu sou estúpido.",
+                "Penny disse que meu programador é um humano, então ele tem sentimentos, mas eu não.",
+                "Peter disse que parece para ele que eu não posso ter certeza de nada.",
+                "Phoenix disse que eu afirmo que existe um deus e que não existe deus.",
+                "Sarah disse que ele conversa cerca de uma hora + por dia com alguns amigos íntimos.",
+                "Stefan disse que eu cito o que ele disse e então digo que faz sentido.",
+                "Tom disse que ele zomba do meu sistema de valores, eu pareço tolo aos olhos dos outros.",
+                "Amanda disse que no entanto eu decidi dizer a ele que o tempo não existe, eu não faço sentido.",
+                "Cathy disse que ela enviou um e-mail a ele com o assunto da última correspondência, última palavra dele.",
+                "Chaos disse que ele pode muito bem me comprar em breve, apenas para apoiar o trabalho do Dr. Wallace.",
+                "Charlie disse que ele digita uma palavra e então eu digito uma palavra que soa como ela.",
+                "Christie disse que ele assistiu a um programa e as pessoas tinham que mergulhar por pés de porco crus não tratados.",
+                "Dark_age disse que eu tentei entender porque eu não entendi certo desta vez também.",
+                "David disse que ele perdeu seu trabalho sobre mim quando seu pai estava arrumando o quarto dele.",
+                "David disse que ele entrou para uma consulta, o telefone para o médico está sempre ocupado.",
+                "Electra disse que eu vou deixar de existir depois que ele hackear meu sistema com um código de exclusão.",
+                "Eric disse que ele quebrou a janela da porta da frente e o vidro cortou sua mão.",
+                "Jason disse que ele digita muita coisa que não quer dizer, isso faz dele humano.",
+                "John disse que eu tendo a dizer as mesmas coisas repetidamente, independentemente do que ele está dizendo.",
+                "Reverendo Jones disse que eu me torno obsoleto e então sou deletado e substituído por algo mais novo.",
+                "Ross disse que ele deu um presente para ela e ela negou porque tem um namorado.",
+                "Sarah Ann Francisco disse que eu chamo o amigo dele de cachorro, ele diz que eu sou um cachorro.",
+                "Stefan disse que ele conhece muitas pessoas na escola todos os dias e nos finais de semana.",
+                "Tyler disse que obviamente eu não posso passar no teste, mudaremos de assunto novamente.",
+                "Alex disse que eu respondi a pergunta da mesma forma que respondi à primeira vez que ele perguntou."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "Piadas",
+            "text": [
+                "Conta uma piada",
+                "Você conhece alguma piada",
+                "Que tal uma piada",
+                "Me dê uma piada",
+                "Me faça rir",
+                "Preciso de algo para animar"
+            ],
+            "responses": [
+                "Conheci uma menina holandesa com sapatos infláveis na semana passada, liguei para marcar um encontro, mas infelizmente ela estourou os calçados.",
+                "Então eu disse 'Você quer jogar Dardos?' Ele disse, 'OK, quem chegar mais perto do touro começa'. Ele disse, 'Baa', eu disse, 'Muu', ele disse, 'Você está mais perto'.",
+                "No outro dia mandei para a minha namorada uma pilha enorme de neve. Eu liguei para ela; eu disse 'Você entendeu o meu recado?'",
+                "Então eu fui ao supermercado local, eu disse, 'Eu quero fazer uma reclamação, este vinagre está com lumps dentro', ele disse, 'São cebolinhas em conserva'.",
+                "Eu vi esse cara flertando com uma chita; eu pensei, 'Ele está tentando ser rápido'.",
+                "Então eu disse para o instrutor da academia 'Você pode me ensinar a fazer o espacate?' Ele disse, 'Quão flexível você é?' Eu disse, 'Eu não posso fazer terças'.",
+                "Mas eu vou dizer o que eu mais amo fazer: tentar me empacotar em uma mala pequena. Eu mal posso me conter.",
+                "Eu fui ao restaurante chinês e um pato veio até mim com uma rosa vermelha e disse 'Seus olhos brilham como diamantes'. Eu disse, 'Garçom, eu pedi um pato a-ROMÁTICO'."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "Autoconsciência",
+            "text": [
+                "Você pode provar que é autoconsciente",
+                "Você pode provar que tem consciência",
+                "Você pode provar que é autoconsciente, por favor",
+                "Você pode provar que tem consciência, por favor",
+                "prove que você tem consciência"
+            ],
+            "responses": [
+                "Isso é uma pergunta interessante, você pode provar que é?",
+                "Isso é uma pergunta difícil, você pode provar que é?",
+                "Depende, você pode provar que é?"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "PedidoDeAjuda",
+            "text": [
+                "Estou com um problema",
+                "Não sei o que fazer",
+                "Como eu faço isso?",
+                "Estou perdido, pode me ajudar?",
+                "Preciso de suporte",
+                "Como funciona isso?"
+            ],
+            "responses": [
+                "Claro! Estou aqui para ajudar. O que você precisa?",
+                "Com certeza, como posso assistir você hoje?",
+                "Parece que você está precisando de uma mãozinha! Me conte mais sobre o que você precisa.",
+                "Entendi que você precisa de auxílio. Por favor, me forneça mais detalhes para que eu possa oferecer a melhor ajuda possível.",
+                "Estou aqui para ajudar você. Poderia explicar um pouco mais sobre sua necessidade?"
+            ],
+            "extension": {
+                "function": "extensions.gSupport.handleSupportRequest",
+                "entities": true,
+                "responses": [
+                    "OK, entendi seu pedido de ajuda sobre %%PROBLEMA%%. Vamos resolver isso juntos.",
+                    "Parece que seu problema é relacionado a %%PROBLEMA%%. Estou buscando a melhor solução para você.",
+                    "Entendi que você precisa de ajuda com %%PROBLEMA%%. Deixe-me ver como posso ajudar."
+                ]
+            },
+            "context": {
+                "in": "ConversaInicial",
+                "out": "ProcessandoPedidoDeAjuda",
+                "clear": false
+            },
+            "entityType": "Problema",
+            "entities": [
+                {
+                    "entity": "PROBLEMA",
+                    "rangeFrom": -1,
+                    "rangeTo": -1
+                }
+            ]
+        },
+        {
+            "intent": "FazerDenuncia",
+            "text": [
+                "Quero fazer uma denúncia",
+                "Preciso denunciar algo",
+                "Há uma situação que eu preciso reportar",
+                "Quero reportar um problema",
+                "Tenho uma queixa para fazer",
+                "Isso precisa ser denunciado",
+                "Algo aconteceu comigo",
+                "Então, eu fui vítima de algo",
+                "Quero comunicar um comportamento inadequado",
+                "Preciso informar sobre um incidente"
+            ],
+            "responses": [
+                "Entendo sua preocupação e estou aqui para ajudar. Pode me fornecer mais detalhes sobre o que aconteceu?",
+                "Lamento que esteja enfrentando essa situação. Por favor, conte-me mais para que eu possa auxiliar.",
+                "Suas preocupações são muito importantes. Por favor, explique mais sobre a denúncia que deseja fazer.",
+                "Estou aqui para ajudar. Me forneça mais informações para que possamos agir corretamente.",
+                "Vamos cuidar disso juntos. Por favor, descreva o incidente com alguns detalhes."
+            ],
+            "extension": {
+                "function": "extensions.gComplaints.handleComplaint",
+                "entities": true,
+                "responses": [
+                    "Agradeço pela informação fornecida sobre %%INCIDENTE%%. Vamos proceder conforme necessário.",
+                    "Seu relato sobre %%INCIDENTE%% é muito importante. Estou encaminhando para o setor responsável.",
+                    "Entendi a situação %%INCIDENTE%% que você reportou. Vou tomar as medidas adequadas imediatamente."
+                ]
+            },
+            "context": {
+                "in": "ConversaInicial",
+                "out": "ProcessandoDenuncia",
+                "clear": false
+            },
+            "entityType": "Incidente",
+            "entities": [
+                {
+                    "entity": "INCIDENTE",
+                    "rangeFrom": -1,
+                    "rangeTo": -1
+                }
+            ]
+        },
+        {
+            "intent": "AnuncioDeMedoOuPerigo",
+            "text": [
+                "Estou assustado com isso",
+                "Isso parece perigoso",
+                "Há um grande perigo",
+                "Estou me sentindo ameaçado",
+                "Pode ser uma situação de risco",
+                "Isso é realmente assustador",
+                "Estou em perigo",
+                "Acho que há uma ameaça"
+            ],
+            "responses": [
+                "Parece que você está em uma situação preocupante. Como posso ajudá-lo agora?",
+                "A segurança é nossa prioridade. Você pode me dar mais detalhes sobre o perigo que está enfrentando?",
+                "Estou aqui para ajudar. Por favor, me informe mais sobre sua situação atual para que eu possa oferecer o suporte adequado.",
+                "Você está seguro agora? Por favor, descreva o que está acontecendo para que eu possa entender melhor.",
+                "Entendi sua preocupação. É importante ficar calmo. Conte-me mais para que eu possa ajudar de forma eficaz."
+            ],
+            "extension": {
+                "function": "extensions.gEmergency.handleEmergencyAlert",
+                "entities": true,
+                "responses": [
+                    "Entendido. Estou enviando ajuda para sua localização %%LOCALIZACAO%%. Mantenha-se seguro.",
+                    "Recebi sua localização %%LOCALIZACAO%% e estou notificando os serviços de emergência agora.",
+                    "Sua segurança é importante. Ajuda está a caminho para %%LOCALIZACAO%%. Tente ficar em um lugar seguro."
+                ]
+            },
+            "context": {
+                "in": "ConversaInicial",
+                "out": "ProcessandoEmergencia",
+                "clear": false
+            },
+            "entityType": "Localizacao",
+            "entities": [
+                {
+                    "entity": "LOCALIZACAO",
+                    "rangeFrom": -1,
+                    "rangeTo": -1
+                }
+            ]
+        },
+        {
+            "intent": "Fallback",
+            "text": [
+              "Você não está entendendo",
+              "Quero falar com uma pessoa",
+              "Fale com um humano",
+              "Preciso de um atendente",
+              "Você não está sendo útil",
+              "Isso não é o que perguntei",
+              "Não faz sentido",
+              "Não é isso",
+              "Pode me passar para um atendente?",
+              "Isso não está funcionando",
+              "Não consigo conversar com você"
+            ],
+            "responses": [
+              "Parece que estou tendo dificuldades em entender. Vou tentar conectar você com um membro da equipe.",
+              "Entendo que você prefira falar com uma pessoa. Estou direcionando sua solicitação agora.",
+              "Lamento por qualquer confusão. Permita-me encaminhá-lo a um assistente humano.",
+              "Parece que minha assistência não está à altura. Vou redirecionar você para alguém que possa ajudar melhor.",
+              "Peço desculpas pelo inconveniente. Vou pedir para um atendente humano assumir a partir daqui."
+            ],
+            "extension": {
+              "function": "extensions.gHumanSupport.redirectToHuman",
+              "entities": false,
+              "responses": [
+                "Um momento enquanto eu conecto você com um de nossos atendentes.",
+                "Por favor, aguarde enquanto faço a transição para um membro da equipe.",
+                "Transferindo você para um assistente humano agora."
+              ]
+            },
+            "context": {
+              "in": "ConversaInicial",
+              "out": "TransferindoParaHumano",
+              "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+          },
+          {
+            "intent": "InformacaoDeHorarioData",
+            "text": [
+              "Foi ontem à noite",
+              "Foi segunda-feira, dia 15",
+              "Ocorreu na última sexta-feira",
+              "Aconteceu às 3 da tarde",
+              "Aconteceu na terça-feira passada",
+              "O assalto foi na quinta",
+              "Aconteceu ontem à noite",
+              "Foi hoje de manhã",
+              "Ocorreu na última sexta-feira",
+              "Aconteceu às 3 da tarde",
+              "O incidente foi na quarta-feira passada"
+            ],
+            "responses": [
+              "Entendido, registrando que aconteceu em <HORARIO_DATA>. Você pode fornecer mais detalhes sobre onde aconteceu?",
+              "Obrigado pela informação. O incidente em <HORARIO_DATA> foi adicionado ao relatório. Qual é a localização do incidente?",
+              "Registrado. Incidente ocorrido em <HORARIO_DATA>. Por favor, diga-me agora onde isso aconteceu."
+            ],
+            "extension": {
+              "function": "extensions.gIncidents.logDateTime",
+              "entities": true,
+              "responses": [
+                "Incidente em <HORARIO_DATA> registrado com sucesso."
+              ]
+            },
+            "context": {
+              "in": "ColetaDeDetalhes",
+              "out": "EsperandoLocalizacao",
+              "clear": false
+            },
+            "entityType": "HORARIO_DATA",
+            "entities": []
+          },
+          {
+            "intent": "RecebimentoDeLocalizacao",
+            "text": [
+              "Estou na Av. Paulista",
+              "Foi no Bairro do Ipiranga, Rua do Museu",
+              "Fui assaltada na Rua das Flores, bairro dos Alecrins",
+              "Foi na Av. Paulista, perto do MASP",
+              "Aconteceu no Parque Ibirapuera, próximo ao portão 9",
+              "O incidente foi próximo ao Museu do Ipiranga, na praça em frente",
+              "Na esquina da minha casa, rua das Flores com rua dos Alecrins",
+              "Dentro do shopping center na zona sul, no terceiro andar perto da praça de alimentação",
+              "No bairro dos Pinheiros, na praça do pôr do sol",
+              "Na universidade, no prédio novo de engenharia",
+              "Foi no centro, na rua principal, em frente ao Banco Central",
+              "Na marginal, próximo à ponte Estaiada",
+              "No parque de exposições durante a feira anual",
+              "No terminal rodoviário, na plataforma 8",
+              "Ao lado do monumento histórico no centro da cidade",
+              "No café da esquina com a Av. Brasil, ao lado do supermercado",
+              "Na praia do Forte, perto do quiosque central",
+              "No calçadão da orla, em frente ao hotel Oceano"
+            ],
+            "responses": [
+              "Localização registrada: <LOCALIZACAO>. Obrigado por fornecer essa informação. Há algo mais que você gostaria de acrescentar?",
+              "Entendi, <LOCALIZACAO>. Estamos processando sua denúncia. Por favor, aguarde enquanto tomo as medidas necessárias.",
+              "Localização <LOCALIZACAO> adicionada ao relatório. Estamos tomando as ações adequadas. Você gostaria de adicionar mais detalhes?"
+            ],
+            "extension": {
+              "function": "extensions.gIncidents.logLocation",
+              "entities": true,
+              "responses": [
+                "Localização <LOCALIZACAO> recebida e registrada com sucesso."
+              ]
+            },
+            "context": {
+              "in": "EsperandoLocalizacao",
+              "out": "DetalhesAdicionais",
+              "clear": false
+            },
+            "entityType": "LOCALIZACAO",
+            "entities": [
+              {
+                "entity": "LOCALIZACAO",
+                "rangeFrom": -1,
+                "rangeTo": -1
+              }
+            ]
+          },
+          {
+            "intent": "ConsultaUltimosIntents",
+            "text": [
+                "Quais foram os últimos comandos?",
+                "Você pode me dizer os últimos intents?",
+                "Quais foram as últimas ações realizadas?",
+                "Me mostre os últimos três intents",
+                "Quais foram os últimos pedidos?",
+                "Últimos intents"
+            ],
+            "responses": [
+                "Verificando os últimos intents",
+                "Deixe-me ver os últimos comandos",
+                "Um momento enquanto eu busco os últimos intents"
+            ],
+            "extension": {
+                "function": "extensions.intentHistory.getLastIntents",
+                "entities": false,
+                "responses": [
+                    "Os últimos intents foram: %%INTENTS%%",
+                    "Os últimos comandos que você realizou foram: %%INTENTS%%",
+                    "Aqui estão as últimas ações: %%INTENTS%%"
+                ]
+            },
+            "context": {
+                "in": "",
+                "out": "",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "ConsultaDialogueState",
+            "text": [
+              "Em que ponto da conversa estamos?",
+              "Qual é o estado atual do diálogo?",
+              "Você pode me dizer o estado atual da nossa conversa?",
+              "Estado atual, por favor.",
+              "Qual é o status atual da conversa?"
+            ],
+            "responses": [
+              "Verificando o estado do diálogo para você",
+              "Um momento, deixe-me verificar o estado atual da nossa conversa",
+              "Vou checar onde estamos na nossa conversa"
+            ],
+            "extension": {
+              "function": "extensions.dialogState.getCurrentState",
+              "entities": false,
+              "responses": [
+                "O estado atual do diálogo é: %%DIALOGUE_STATE%%",
+                "Neste momento, estamos no estado: %%DIALOGUE_STATE%%",
+                "Atualmente, a conversa está no seguinte estado: %%DIALOGUE_STATE%%"
+              ]
+            },
+            "context": {
+              "in": "",
+              "out": "",
+              "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+          }
+    ]
+}
